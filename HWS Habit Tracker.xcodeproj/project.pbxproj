@@ -13,6 +13,10 @@
 		BB24BBD525CC60B300165540 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24BBC025CC60B300165540 /* ContentView.swift */; };
 		BB24BBD625CC60B300165540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB24BBC125CC60B300165540 /* Assets.xcassets */; };
 		BB24BBD725CC60B300165540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB24BBC125CC60B300165540 /* Assets.xcassets */; };
+		BB24BBE325CC613C00165540 /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24BBE225CC613C00165540 /* ActivityData.swift */; };
+		BB24BBE425CC613C00165540 /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24BBE225CC613C00165540 /* ActivityData.swift */; };
+		BB24BBE825CC9A8C00165540 /* AddHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24BBE725CC9A8C00165540 /* AddHabit.swift */; };
+		BB24BBE925CC9A8C00165540 /* AddHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24BBE725CC9A8C00165540 /* AddHabit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		BB24BBCE25CC60B300165540 /* HWS Habit Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HWS Habit Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB24BBD025CC60B300165540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB24BBD125CC60B300165540 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		BB24BBE225CC613C00165540 /* ActivityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityData.swift; sourceTree = "<group>"; };
+		BB24BBE725CC9A8C00165540 /* AddHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,9 @@
 			children = (
 				BB24BBBF25CC60B300165540 /* HWS_Habit_TrackerApp.swift */,
 				BB24BBC025CC60B300165540 /* ContentView.swift */,
+				BB24BBE725CC9A8C00165540 /* AddHabit.swift */,
 				BB24BBC125CC60B300165540 /* Assets.xcassets */,
+				BB24BBE225CC613C00165540 /* ActivityData.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -187,7 +195,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB24BBE325CC613C00165540 /* ActivityData.swift in Sources */,
 				BB24BBD425CC60B300165540 /* ContentView.swift in Sources */,
+				BB24BBE825CC9A8C00165540 /* AddHabit.swift in Sources */,
 				BB24BBD225CC60B300165540 /* HWS_Habit_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +206,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB24BBE425CC613C00165540 /* ActivityData.swift in Sources */,
 				BB24BBD525CC60B300165540 /* ContentView.swift in Sources */,
+				BB24BBE925CC9A8C00165540 /* AddHabit.swift in Sources */,
 				BB24BBD325CC60B300165540 /* HWS_Habit_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
