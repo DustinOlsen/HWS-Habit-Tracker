@@ -13,18 +13,23 @@ struct AddHabit: View {
     @State private var description = ""
     
     @ObservedObject var habits: HabitData
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         NavigationView {
             Form {
                 TextField("Name", text: $name)
-                TextField("Description", text: $description)
-                    .frame(width: 300, height: 300)
+                
+                Section(header: Text("Description")) {
+                    TextEditor(text: $description)
+                }
             }
             .navigationBarTitle("Add new habit")
             .navigationBarItems(trailing: Button("Save") {
                 let newHabit = TrackedHabits(habitName: name, habitDescription: description, habitCount: 0)
                 self.habits.habitList.append(newHabit)
+                self.presentationMode.wrappedValue.dismiss()
+                
             })
         }
         

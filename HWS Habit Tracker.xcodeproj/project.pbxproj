@@ -17,6 +17,8 @@
 		BB24BBE425CC613C00165540 /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24BBE225CC613C00165540 /* ActivityData.swift */; };
 		BB24BBE825CC9A8C00165540 /* AddHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24BBE725CC9A8C00165540 /* AddHabit.swift */; };
 		BB24BBE925CC9A8C00165540 /* AddHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24BBE725CC9A8C00165540 /* AddHabit.swift */; };
+		BB2E34A625CE06A400E32DCF /* HabitDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E34A525CE06A400E32DCF /* HabitDetails.swift */; };
+		BB2E34A725CE06A400E32DCF /* HabitDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E34A525CE06A400E32DCF /* HabitDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,7 @@
 		BB24BBD125CC60B300165540 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		BB24BBE225CC613C00165540 /* ActivityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityData.swift; sourceTree = "<group>"; };
 		BB24BBE725CC9A8C00165540 /* AddHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabit.swift; sourceTree = "<group>"; };
+		BB2E34A525CE06A400E32DCF /* HabitDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,7 @@
 			children = (
 				BB24BBBF25CC60B300165540 /* HWS_Habit_TrackerApp.swift */,
 				BB24BBC025CC60B300165540 /* ContentView.swift */,
+				BB2E34A525CE06A400E32DCF /* HabitDetails.swift */,
 				BB24BBE725CC9A8C00165540 /* AddHabit.swift */,
 				BB24BBC125CC60B300165540 /* Assets.xcassets */,
 				BB24BBE225CC613C00165540 /* ActivityData.swift */,
@@ -195,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2E34A625CE06A400E32DCF /* HabitDetails.swift in Sources */,
 				BB24BBE325CC613C00165540 /* ActivityData.swift in Sources */,
 				BB24BBD425CC60B300165540 /* ContentView.swift in Sources */,
 				BB24BBE825CC9A8C00165540 /* AddHabit.swift in Sources */,
@@ -206,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2E34A725CE06A400E32DCF /* HabitDetails.swift in Sources */,
 				BB24BBE425CC613C00165540 /* ActivityData.swift in Sources */,
 				BB24BBD525CC60B300165540 /* ContentView.swift in Sources */,
 				BB24BBE925CC9A8C00165540 /* AddHabit.swift in Sources */,
